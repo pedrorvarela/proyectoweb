@@ -1,0 +1,1837 @@
+  @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Indie+Flower&display=swap');
+  @import url('https://fonts.googleapis.com/css?family=Hamilton');
+  @import url('https://fonts.googleapis.com/css?family=Bagea');
+
+
+  /*font-family: 'Bagea', sans-serif; */
+  /* font-family: 'Hamilton', sans-serif;*/
+
+li a {
+  color: white;
+}
+
+  ul{
+    list-style-type:none;
+  }
+
+  a{text-decoration:none;}
+
+  
+ .active{
+  font-family: 'Hamilton', sans-serif;
+ }
+
+
+  .topnav {
+    overflow: hidden;
+    background-color:#262829;
+    
+  }
+  
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    filter: brightness(70%);
+  }
+  
+  .topnav a.active {
+    color: white;
+  }
+  
+  .topnav .icon {
+    display: none;
+  }
+
+.NOSOTROS-LISTA {
+  color: white;
+  cursor: pointer;
+  font-family: 'Bagea', sans-serif;
+}
+.NOSOTROS-LISTA:hover {
+  filter: brightness(70%);
+}
+
+
+.COCINA-LISTA {
+  color: white;
+  cursor: pointer;
+  font-family: 'Bagea', sans-serif;
+}
+.COCINA-LISTA:hover {
+  filter: brightness(70%);
+}
+
+.BEBIDAS-LISTA {
+  color: white;
+  cursor: pointer;
+  font-family: 'Bagea', sans-serif;
+}
+.BEBIDAS-LISTA:hover {
+  filter: brightness(70%);
+}
+
+.EVENTOS-LISTA {
+  color: white;
+  cursor: pointer;
+  font-family: 'Bagea', sans-serif;
+}
+.EVENTOS-LISTA:hover {
+  filter: brightness(70%);
+}
+
+
+
+.SECTION1 {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 50%;
+}
+
+.A1{ 
+    background-color:#c1b6a4;
+    flex: 70%;
+    height: 100%;
+    background-image: url(LaParis.png);
+    background-size: cover;
+    background-position: center 70%;
+    cursor: pointer;
+}
+.A1:hover {
+  background-color: white;
+  color: black;
+  filter: brightness(70%);
+  transition: 1s;
+}
+
+.LaParis {
+  color: white;
+  font-size: 50px;
+  font-family: 'Bagea', sans-serif;
+  margin-left: 70%;
+}
+
+.TEXTOLAPARIS {
+  font-size: 20px;
+  color: white;
+  margin-left: 5%;
+  margin-right: 50%;
+}
+.A2 {
+  flex: 30%;
+  flex-direction: column;
+  text-align: center;
+  background-color: #c1b6a4;
+}
+
+.MiPerfil {
+  font-family:'Hamilton', sans-serif;
+  font-size: 150%;
+  cursor: pointer;
+}
+.MiPerfil:hover {
+  background-color: white;
+  color: black;
+  filter: brightness(70%);
+  transition: 1s;
+}
+
+
+.MiPerfil {
+  font-family: 'Hamilton', sans-serif;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.MiPerfil:hover {
+  background-color: white;
+  color: black;
+  filter: brightness(90%);
+  transition: 1s;
+}
+
+.DIVMIPERFIL {
+  text-align: center;
+  font-family: 'Bagea', sans-serif;
+  font-size: small;
+}
+
+#profileData {
+  display: none;
+  margin-top: 20px;
+}
+
+.Nombre {
+  font-size: 10px;
+  color: black
+}
+
+.Edad {
+  font-size: 10px;
+  color: black
+}
+
+.Email {
+  font-size: 10px;
+  color: black
+}
+
+
+
+.DIVMICARRITO {
+  text-align: center;
+  font-family:'Bagea', sans-serif;
+  position: sticky;
+}
+
+.MiCarrito{
+  font-family: 'Hamilton', sans-serif;
+  font-size: 20px;
+}
+
+
+.A3 {
+  display: flex;
+  flex-direction: row;
+}
+
+.DIVAFTER {
+  background-color: #efe7da;
+  text-align: center;
+  width: 35%;
+  background-image: url(AfterRabieta.png);
+   background-size: cover;
+   background-position: center;
+  cursor: pointer;
+}
+.DIVAFTER:hover {
+  background-color: white;
+  color: black;
+  filter: brightness(70%);
+  transition: 1s;
+}
+
+.AfterRabieta {
+  font-family:'Hamilton', sans-serif;
+  font-size: 200%;
+  color: white;
+}
+
+.TEXTODIV41 {
+  font-family:'Bagea', sans-serif;
+  color: white;
+  font-size: 15px;
+  align-items: center;
+  margin-top: 140px;
+}
+
+.TEXTODIV42 {
+  font-family:'Bagea', sans-serif;
+  color: white;
+  font-size: 15px;
+}
+
+.DIVCERVEZAMALCRIADA {
+  background-color:  #c1b6a4;
+  text-align: center;
+  width: 35%;
+  background-image: url(CervezaMalcriada.png);
+  background-size: cover;
+  background-position: center 40%;
+  cursor: pointer;
+}
+.DIVCERVEZAMALCRIADA:hover {
+  background-color: white;
+  color: black;
+  filter: brightness(70%);
+  transition: 1s;
+}
+
+.CervezaArtesanalMalcriada {
+  font-family:'Hamilton', sans-serif;
+  font-size: 150%;
+  color: white;
+}
+
+.TEXTODIVCERVEZA {
+  font-family:'Bagea', sans-serif;
+  font-size: 75%;
+  color: white;
+  margin-top: 150px;
+}
+
+.DIVVIVÍ {
+  width: 30%;
+  background-color: #efe7da;
+  text-align: center;
+  cursor: pointer;
+}
+
+.VivíLaExperiencia {
+  font-family:'Hamilton', sans-serif;
+  font-size: 150%;
+  text-align: center;
+}
+
+.FOOTER {
+  text-align: center;
+  font-family:'Bagea', sans-serif;
+  background-color: #262829;
+  filter: brightness(0.7);
+  margin-top: 5px;
+}
+
+.CONTACTO {
+  font-size: 15px;
+  color: white;
+  margin: 0px;
+}
+
+.ArticleFooter {
+  text-align: center;
+  flex-direction: row;
+  font-size: 10px;
+  color: white;
+}
+
+
+/* SOBRE NOSOTROS */
+
+.SectionSobreNos1{
+background-image: url(./IMAGENES/FabricaCerveza.png);
+background-size: cover;
+background-attachment: fixed;
+}
+
+.ArtSobreNos1 {
+  text-align: center;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.SobreNosotros {
+  font-family:'Hamilton', sans-serif;
+  font-size: 40px;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.ArtSobreNos2 {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.DivHonestidad {
+  width: 30%;
+  height: 80%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  box-shadow: 5px 0px 5px 2px rgba(0, 0, 0, 0.5);
+  background-image: url(./IMAGENES/Honestidad.png);
+  background-position: center;
+  margin-left: 20px;
+}
+
+
+.DivTrabajo {
+  width: 30%;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  box-shadow: -5px 0px 5px 2px rgba(0, 0, 0, 0.5) ,5px 0px 5px 2px rgba(0, 0, 0, 0.5);
+  background-image: url(./IMAGENES/HombreTrabajando.png);
+  background-position: center;
+}
+.Valores {
+  color: white;
+}
+
+.DivCoCreación {
+  width: 30%;
+  height: 80%;
+  box-shadow: -5px 0px 5px 2px rgba(0, 0, 0, 0.5);
+  background-image: url(./IMAGENES/COCreacion.png);
+  background-position: center;
+  margin-right: 20px;
+}
+
+.ArtSobreNos3 {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.DivExperimentación{
+  width: 30%;
+  height: 80%;
+  box-shadow: -5px 0px 5px 2px rgba(0, 0, 0, 0.5);
+  background-image: url(./IMAGENES/Experimentacion.png);
+  background-position: center;
+  margin-left: 150px;
+}
+
+.DivNobleza{
+  width: 30%;
+  height: 80%;
+  box-shadow: -5px 0px 5px 2px rgba(0, 0, 0, 0.5);
+  background-image: url(./IMAGENES/Nobleza.png);
+  background-position: center;
+  margin-right: 150px;
+} 
+
+.SectionSobreNos2{
+  display: flex;
+  flex-direction: row;
+  height: 400px;
+  width: 100%;
+}
+.ArtSobreNos4{
+  width: 40%;
+  height: 100%;
+  background-color: #262829;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+.ArtSobreNos5{
+  width: 60%;
+  height: 100%;
+  background-image: url(./IMAGENES/DirecLaParis.png);
+  background-position: center;
+}
+
+.DivNuestraCasa{
+  background-image: url(./IMAGENES/NuestraCasa.png);
+  background-position: center;
+  background-size: cover;
+  height: 80%;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+
+}
+
+.NuestraCasa{
+font-family:'Hamilton', sans-serif;
+font-size: 30px;
+color: black;
+}
+
+/* fin SOBRE NOSOTROS */
+
+/* COCINA */
+
+.SectionCocina0{
+background-image: url(./IMAGENES/FondoComida2.png);
+background-size: cover;
+background-position: center;
+background-attachment: fixed;
+}
+
+
+.SectionCocina1 {
+  width: 100%;
+  height: 20%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.TítuloCocina{
+  font-family:'Hamilton', sans-serif;
+  font-size: 50px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  
+}
+
+.ArtComidas{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 400px;
+  margin-top: 40px;
+}
+
+
+
+.FotosComida{
+  width: 30%;
+  background-image: url(Hamburguesa.png);
+  background-size: cover;
+  background-position: center;
+  margin-top: 5px;
+  margin-left: 50px;
+  box-shadow: -7px 0px 5px 2px rgba(0, 0, 0, 0.5), 7px 0px 5px 2px rgba(0, 0, 0, 0.5);
+}
+
+.DivComida {
+  width: 70%;
+ margin-top: 5px;
+ display: flex;
+  flex-direction: column; 
+  align-items: center; 
+  justify-content: center;
+  color: white;
+
+}
+
+.DobleCheesburguer{
+  font-family: 'Hamilton', sans-serif;
+  font-size: 27px;
+}
+.TextoCheesburguer{
+  font-family: 'Bagea', sans-serif;
+  font-size: smaller;
+}
+
+.HamburguesaClásica{
+  font-family: 'Hamilton', sans-serif;
+
+  font-size: 27px;
+}
+.TextoClásica{
+  font-family: 'Bagea', sans-serif;
+  font-size: smaller;
+}
+
+.PapasRabieta{
+  font-family: 'Hamilton', sans-serif;
+  font-size: 27px;
+}
+.TextoPapas{
+  font-family: 'Bagea', sans-serif;
+  font-size: smaller;
+}
+
+.ArtPostres {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 400px;
+  margin-top: 40px;
+}
+
+.DivPostres{
+  width: 70%;
+  margin-top: 5px;
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+  justify-content: center;
+  color: white;
+}
+
+.TabletaHelado{
+  font-family: 'Hamilton', sans-serif;
+  font-size: 27px;
+}
+.TextoTabletas{
+  font-family: 'Bagea', sans-serif;
+  font-size: smaller;
+}
+
+.BochasHelado{
+  font-family: 'Hamilton', sans-serif;
+  font-size: 27px;
+}
+.TextoBochas{
+  font-family: 'Bagea', sans-serif;
+  font-size: smaller;
+}
+
+.Franui{
+  font-family: 'Hamilton', sans-serif;
+  font-size: 27px;
+}
+.TextoFranui{
+  font-family: 'Bagea', sans-serif;
+  font-size: smaller;
+}
+
+.FotosPostres {
+  background-image: url(TabletaHelado.png);
+  width: 30%;
+  background-size: cover;
+  background-position: center;
+  margin-top: 5px;
+  margin-right: 50px;
+  box-shadow: -7px 0px 5px 2px rgba(0, 0, 0, 0.5), 7px 0px 5px 2px rgba(0, 0, 0, 0.5);
+  
+}
+
+/* Fin COCINA */
+
+
+/* BEBIDAS */
+
+.Section0Bebidas {
+  width: 100%;
+  height: 25%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  background-color:#223030
+}
+
+.ArtTítuloBebidas{
+height: 25%;
+width: 100%;
+display: flex;
+justify-content: center;
+}
+
+.TítuloBebidas{
+  font-family: 'Hamilton', sans-serif;
+  font-size: 50px;
+  color: white;
+}
+
+.Section1Bebidas{
+  width: 100%;
+  height: 500px;
+  align-items: center;
+  background-image: url(./IMAGENES/FotoSectionBebidas.png);
+  background-attachment: fixed;
+
+  
+}
+
+.Art1Cervezas {
+  width: 70%;
+  height: 35%;
+  display: flex;
+  flex-direction: row;
+  margin-left: 170px;
+  box-shadow: -5px 0px 5px 2px rgba(0, 0, 0, 0.5) ,5px 0px 5px 2px rgba(0, 0, 0, 0.5);
+}
+.Ipa{
+  width: 20%;
+  height: 100%;
+  background-image: url(./IMAGENES/IPA.png);
+  background-size: cover;
+  background-position: center;
+}
+.Ipa:hover {
+  background-color: white;
+  color: black;
+  filter: brightness(70%);
+  transition: 1s;
+}
+
+.Honey{
+  width: 20%;
+  height: 100%;
+  background-image: url(./IMAGENES/HONEY.png);
+  background-size: cover;
+  background-position: center;
+  
+}
+.Honey:hover {
+  background-color: white;
+  color: black;
+  filter: brightness(70%);
+  transition: 1s;
+}
+
+.Irish {
+  width: 20%;
+  height: 100%;
+  background-image: url(./IMAGENES/IRISH.png);
+  background-size: cover;
+  background-position: center;
+}
+.Irish:hover {
+  background-color: white;
+  color: black;
+  filter: brightness(70%);
+  transition: 1s;
+}
+
+.RedHoney{
+  width: 20%;
+  height: 100%;
+  background-image: url(./IMAGENES/RedHoney.png);
+  background-size: cover;
+  background-position: center;
+}
+.RedHoney:hover {
+  background-color: white;
+  color: black;
+  filter: brightness(70%);
+  transition: 1s;
+}
+
+.WitBier {
+  width: 20%;
+  height: 100%;
+  background-image: url(./IMAGENES/Witbier.png);
+  background-size: cover;
+  background-position: center;
+}
+.WitBier:hover {
+  background-color: white;
+  color: black;
+  filter: brightness(70%);
+  transition: 1s;
+}
+
+.Art2Cervezas{
+  width: 70%;
+  height: 35%;
+  display: flex;
+  flex-direction: row;
+  margin-left: 170px;
+  box-shadow: -5px 0px 5px 2px rgba(0, 0, 0, 0.5) ,5px 0px 5px 2px rgba(0, 0, 0, 0.5);
+}
+
+.RedIpa {
+  width: 20%;
+  height: 100%;
+  background-image: url(./IMAGENES/REDIPA.png);
+  background-size: cover;
+  background-position: center;
+}
+.RedIpa:hover {
+  background-color: white;
+  color: black;
+  filter: brightness(70%);
+  transition: 1s;
+}
+
+.WeeHeavy {
+  width: 20%;
+  height: 100%;
+  background-image: url(./IMAGENES/WEEHEAVY.png);
+  background-size: cover;
+  background-position: center;
+}
+.WeeHeavy:hover {
+  background-color: white;
+  color: black;
+  filter: brightness(70%);
+  transition: 1s;
+}
+
+.Golden {
+  width: 20%;
+  height: 100%;
+  background-image: url(./IMAGENES/GOLDEN.png);
+  background-size: cover;
+  background-position: center;
+}
+.Golden:hover {
+  background-color: white;
+  color: black;
+  filter: brightness(70%);
+  transition: 1s;
+}
+
+.Helles {
+  width: 20%;
+  height: 100%;
+  background-image: url(./IMAGENES/Helles.png);
+  background-size: cover;
+  background-position: center;
+}
+.Helles:hover {
+  background-color: white;
+  color: black;
+  filter: brightness(70%);
+  transition: 1s;
+}
+
+.Apa {
+  width: 20%;
+  height: 100%;
+  background-image: url(./IMAGENES/Apa.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.Apa:hover {
+  background-color: white;
+  color: black;
+  filter: brightness(70%);
+  transition: 1s;
+}
+
+
+.Section2Bebidas {
+  width: 100%;
+  height: 500px;
+}
+
+.ArtTragos{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+  background-image: url(./IMAGENES/FotoCanillas_1.png);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+
+}
+
+.FotoTrago{
+  width: 30%;
+  background-image: url(./IMAGENES/GinTonic.png);
+  background-size: cover;
+  background-position: center;
+  margin-top: 5px;
+  margin-left: 20px;
+  box-shadow: -7px 0px 5px 2px rgba(0, 0, 0, 0.5), 7px 0px 5px 2px rgba(0, 0, 0, 0.5);
+}
+
+.DivTextoTrago {
+  width: 70%;
+ margin-top: 5px;
+ display: flex;
+  flex-direction: column; 
+  align-items: center; 
+  justify-content: center;
+  color: white;
+}
+
+.Fernet{
+  font-family: 'Hamilton', sans-serif;
+  font-size: 30px;
+}
+.TextoFernet{
+  font-family: 'Bagea', sans-serif;
+  font-size: smaller;
+}
+
+.GinTonic{
+  font-family: 'Hamilton', sans-serif;
+  font-size: 30px;
+}
+.TextoGin{
+  font-family: 'Bagea', sans-serif;
+  font-size: smaller;
+}
+
+.CubaLibre{
+  font-family: 'Hamilton', sans-serif;
+  font-size: 30px;
+}
+.TextoCuba{
+  font-family: 'Bagea', sans-serif;
+
+  font-size: smaller;
+}
+
+
+/* Fin BEBIDAS */
+
+/* EVENTOS */
+.Section1Eventos {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  background-image: url(./IMAGENES/FondoEventos22.png);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+
+}
+.TítuloEventos{
+  font-family: 'Hamilton', sans-serif;
+  font-size: 50px;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.SubSectionEventos{
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  width: 100%;
+  justify-content: space-between;
+}
+.ArtEventos1{
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 7px 5px 5px 5px rgba(0.7, 0.7, 0.7, 0.7);
+
+}
+.DivEventosAfter{
+  height: 30%;
+  width: 100%;
+  background-color: #262829;
+  display: flex;
+  flex-direction: row;
+  box-shadow: 7px 5px 5px 5px rgba(0.7, 0.7, 0.7, 0.7);
+}
+.SubDivEventosAfter_1{
+width: 70%;
+height: 100%;
+color: white;
+max-height: fit-content;
+}
+.TítuloAfterRabieta{
+  font-family: 'Hamilton', sans-serif;
+  font-size: 30px;
+  margin: 10px;
+}
+.TextoAfterRabieta_1{
+  font-size: 12px;
+  font-family:'Bagea', sans-serif;
+}
+.TextoAfterRabieta_2{
+  font-family: 'Bagea', sans-serif;
+  font-size: 12px;
+}
+.SubDivEventosAfter_2{
+  width: 30%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #2f3233;
+  color: white;
+  font-family: 'Bagea', sans-serif;
+  font-size: 12px;
+  cursor: pointer;
+}
+.SubDivEventosAfter_2:hover {
+  filter: brightness(70%);
+  transition: 1s;
+}
+
+.DivEventosMúsica{
+  height: 30%;
+  width: 100%;
+  background-color: #262829;
+  display: flex;
+  flex-direction: row;
+  box-shadow: 7px 5px 5px 5px rgba(0.7, 0.7, 0.7, 0.7);
+}
+.SubDivEventosMúsica_1{
+  width: 70%;
+  height: 100%;
+  color: white;
+  max-height: fit-content;
+  }
+.TítuloMúsica {
+  font-family: 'Hamilton', sans-serif;
+  font-size: 30px;
+  margin: 10px;
+}
+.TextoEventosMúsica_1{
+  font-family: 'Bagea', sans-serif;
+  font-size: 12px;
+}
+.TextoEventosMúsica_2{
+  font-family: 'Bagea', sans-serif;
+  font-size: 12px;
+}
+
+.SubDivEventosMúsica_2{
+  width: 30%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #2f3233;
+  color: white;
+  font-family: 'Bagea', sans-serif;
+  font-size: 12px;
+  cursor: pointer;
+}
+.SubDivEventosMúsica_2:hover {
+  filter: brightness(70%);
+  transition: 1s;
+}
+
+
+.DivEventosOrganiza{
+  height: 30%;
+  width: 100%;
+  background-color: #262829;
+  display: flex;
+  flex-direction: row;
+  box-shadow: 7px 5px 5px 5px rgba(0.7, 0.7, 0.7, 0.7);
+
+}
+.SubDivEventosOrganiza_1{
+  width: 70%;
+  height: 100%;
+  color: white;
+  max-height: fit-content;
+  }
+.TítuloOrganizá {
+  font-family: 'Hamilton', sans-serif;
+  font-size: 30px;
+  margin: 10px;
+}
+.TextoEventosOrganizá_1{
+  font-family: 'Bagea', sans-serif;
+  font-size: 12px;
+}
+
+
+.SubDivEventosOrganiza_2{
+  width: 30%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #2f3233;
+  color: white;
+  font-family: 'Bagea', sans-serif;
+  font-size: 12px;
+  cursor: pointer;
+}
+.SubDivEventosOrganiza_2:hover {
+  filter: brightness(70%);
+  transition: 1s;
+}
+
+.ArtEventos2{
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+
+}
+.DivFotosEventos_1{
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-direction: row;
+
+}
+.SubDivFotosEventos_1_1{
+  width: 50%;
+  height: 100%;
+  background-image: url(./IMAGENES/Guitarra.png);
+  background-position: center;
+  background-size: cover;
+
+}
+
+.SubDivFotosEventos_1_2{
+  width: 50%;
+  height: 100%;
+  background-image: url(./IMAGENES/AFTER.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.DivFotosEventos_2{
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-direction: row;
+
+}
+.SubDivFotosEventos_2_1{
+  width: 50%;
+  height: 100%;
+  background-image: url(./IMAGENES/Eventos.png);
+  background-position: center;
+  background-size: cover;
+}
+.SubDivFotosEventos_2_2{
+  width: 50%;
+  height: 100%;
+  background-image: url(./IMAGENES/EventoArte.png);
+  background-position: center;
+  background-size: cover;
+}
+
+/* Fin EVENTOS */
+
+
+@media screen and (max-width: 768px){
+  .LaParis {
+    font-size: 40px;
+  }
+  .TEXTOLAPARIS {
+    font-size: 15px;
+    margin-bottom: 5%;
+  }
+
+  .A1 {
+    margin-bottom: 3px;
+    } 
+
+  .A3 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    margin-top: 3px;
+  }
+
+  .DIVAFTER {
+
+    width: 100%;
+    margin-bottom: 3px;
+    box-shadow: 0px -10px 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  .DIVCERVEZAMALCRIADA {
+    width: 100%;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    box-shadow: 0px -10px 10px rgba(0, 0, 0, 0.5);
+  }
+
+  .DIVVIVÍ{
+    width: 100%;
+    margin-top: 3px;
+  }
+
+  .A2 {
+    font-size: small;
+  }
+
+
+  /* SOBRE NOSOTROS */
+
+
+.ArtSobreNos1 {
+  text-align: center;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.SobreNosotros {
+  font-family:'Hamilton', sans-serif;
+  font-size: 40px;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.ArtSobreNos2 {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.DivHonestidad {
+  width: 45%;
+  height: 80%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  box-shadow: 5px 0px 5px 2px rgba(0, 0, 0, 0.5);
+  background-image: url(./IMAGENES/Honestidad.png);
+  background-position: center;
+  margin-left: 20px;
+}
+
+
+.DivTrabajo {
+  width: 30%;
+  height: 80%;
+  display: none;
+  justify-content: center;
+  box-shadow: -5px 0px 5px 2px rgba(0, 0, 0, 0.5) ,5px 0px 5px 2px rgba(0, 0, 0, 0.5);
+  background-image: url(./IMAGENES/HombreTrabajando.png);
+  background-position: center;
+}
+.Valores {
+  color: white;
+}
+
+.DivCoCreación {
+  width: 45%;
+  height: 80%;
+  box-shadow: -5px 0px 5px 2px rgba(0, 0, 0, 0.5);
+  background-image: url(./IMAGENES/COCreacion.png);
+  background-position: center;
+  margin-right: 20px;
+}
+
+.ArtSobreNos3 {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.DivExperimentación{
+  width: 45%;
+  height: 80%;
+  box-shadow: -5px 0px 5px 2px rgba(0, 0, 0, 0.5);
+  background-image: url(./IMAGENES/Experimentacion.png);
+  background-position: center;
+  margin-left: 20px;
+
+}
+
+.DivNobleza{
+  width: 45%;
+  height: 80%;
+  box-shadow: -5px 0px 5px 2px rgba(0, 0, 0, 0.5);
+  background-image: url(./IMAGENES/Nobleza.png);
+  background-position: center;
+  margin-right: 20px;
+
+} 
+
+.SectionSobreNos2{
+  display: flex;
+  flex-direction: row;
+  height: 400px;
+  width: 100%;
+}
+.ArtSobreNos4{
+  width: 40%;
+  height: 100%;
+  background-color: #262829;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+.ArtSobreNos5{
+  width: 60%;
+  height: 100%;
+  background-image: url(./IMAGENES/DirecLaParis.png);
+  background-position: center;
+}
+
+.DivNuestraCasa{
+  background-image: url(./IMAGENES/NuestraCasa.png);
+  background-position: center;
+  background-size: cover;
+  height: 80%;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+
+}
+
+.NuestraCasa{
+font-family:'Hamilton', sans-serif;
+font-size: 30px;
+color: black;
+}
+
+/* fin SOBRE NOSOTROS */
+
+/* COCINA */
+
+.SectionCocina0{
+  background-image: url(./IMAGENES/FondoComida2.png);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  }
+  
+  
+  .SectionCocina1 {
+    width: 100%;
+    height: 20%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .SectionCocina2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 1700px;
+  }
+
+  .TítuloCocina{
+    font-family:'Hamilton', sans-serif;
+    font-size: 50px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    
+  }
+  
+  .ArtComidas{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 50%;
+    justify-content: center;
+  }
+  
+  
+  
+  .FotosComida{
+    margin-left: 30px;
+    padding: 0;
+    width: 90%;
+    height: 300px;
+    background-image: url(Hamburguesa.png);
+    background-size: cover;
+    background-position: center;
+    box-shadow: -7px 0px 5px 2px rgba(0, 0, 0, 0.5), 7px 0px 5px 2px rgba(0, 0, 0, 0.5);
+  }
+  
+  .DivComida {
+    width: 100%;
+   display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center;
+    color: white;
+  
+  }
+  
+  .DobleCheesburguer{
+    font-family: 'Hamilton', sans-serif;
+    font-size: 23px;
+  }
+  .TextoCheesburguer{
+    font-family: 'Bagea', sans-serif;
+    font-size: 10px;
+  }
+  
+  .HamburguesaClásica{
+    font-family: 'Hamilton', sans-serif;
+  
+    font-size: 23px;
+  }
+  .TextoClásica{
+    font-family: 'Bagea', sans-serif;
+    font-size: 10px;
+  }
+  
+  .PapasRabieta{
+    font-family: 'Hamilton', sans-serif;
+    font-size: 23px;
+  }
+  .TextoPapas{
+    font-family: 'Bagea', sans-serif;
+    font-size: 10px;
+  }
+  
+  .ArtPostres {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 50%;
+    justify-content: center;
+  }
+  
+  .DivPostres{
+    width: 100%;
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center;
+    color: white;
+  }
+  
+  .TabletaHelado{
+    font-family: 'Hamilton', sans-serif;
+    font-size: 23px;
+  }
+  .TextoTabletas{
+    font-family: 'Bagea', sans-serif;
+    font-size: 10px;
+  }
+  
+  .BochasHelado{
+    font-family: 'Hamilton', sans-serif;
+    font-size: 23px;
+  }
+  .TextoBochas{
+    font-family: 'Bagea', sans-serif;
+    font-size: 10px;
+  }
+  
+  .Franui{
+    font-family: 'Hamilton', sans-serif;
+    font-size: 23px;
+  }
+  .TextoFranui{
+    font-family: 'Bagea', sans-serif;
+    font-size: 10px;
+  }
+  
+  .FotosPostres {
+    margin-left: 30px;
+    margin-right: 30px;
+    background-image: url(TabletaHelado.png);
+    width: 90%;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    box-shadow: -7px 0px 5px 2px rgba(0, 0, 0, 0.5), 7px 0px 5px 2px rgba(0, 0, 0, 0.5);
+    
+  }
+  
+  /* Fin COCINA */
+
+  /* BEBIDAS */
+
+.Section1Bebidas{
+  width: 100%;
+  height: 500px;
+  align-items: center;
+  background-image: url(./IMAGENES/FotoSectionBebidas.png);
+  background-attachment: fixed;
+  justify-content: center;
+
+  
+}
+
+.Art1Cervezas {
+  width: 90%;
+  height: 35%;
+  display: flex;
+  flex-direction: row;
+  margin-left: 30px;
+  box-shadow: -5px 0px 5px 2px rgba(0, 0, 0, 0.5) ,5px 0px 5px 2px rgba(0, 0, 0, 0.5);
+}
+
+.Art2Cervezas{
+  width: 90%;
+  height: 35%;
+  display: flex;
+  flex-direction: row;
+  margin-left: 30px;
+  box-shadow: -5px 0px 5px 2px rgba(0, 0, 0, 0.5) ,5px 0px 5px 2px rgba(0, 0, 0, 0.5);
+}
+
+
+
+.ArtTragos{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+  background-image: url(./IMAGENES/FotoCanillas_1.png);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+
+}
+
+.FotoTrago{
+  display: none;
+  width: 30%;
+  background-image: url(./IMAGENES/GinTonic.png);
+  background-size: cover;
+  background-position: center;
+  margin-top: 5px;
+  margin-left: 20px;
+  box-shadow: -7px 0px 5px 2px rgba(0, 0, 0, 0.5), 7px 0px 5px 2px rgba(0, 0, 0, 0.5);
+}
+
+.DivTextoTrago {
+  width: 100%;
+ margin-top: 5px;
+ display: flex;
+  flex-direction: column; 
+  align-items: center; 
+  justify-content: center;
+  color: white;
+}
+
+
+/* Fin BEBIDAS */
+
+/* EVENTOS */
+.ArtEventos1{
+  width: 70%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 7px 5px 5px 5px rgba(0.7, 0.7, 0.7, 0.7);
+
+}
+
+.ArtEventos2{
+  width: 30%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+
+}
+.DivFotosEventos_1{
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-direction: row;
+
+}
+.SubDivFotosEventos_1_1{
+  display: none;
+}
+
+.SubDivFotosEventos_1_2{
+  width: 100%;
+  height: 100%;
+  background-image: url(./IMAGENES/AFTER.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.SubDivFotosEventos_2_1{
+  width: 100%;
+  height: 100%;
+  background-image: url(./IMAGENES/Eventos.png);
+  background-position: center;
+  background-size: cover;
+}
+.SubDivFotosEventos_2_2{
+display: none;
+}
+
+/* Fin EVENTOS */
+
+}
+
+
+
+
+@media screen and (max-width: 600px){
+
+
+  .DIVLOGORABIETA {
+    display: flex;
+    width: 70%;
+    top: 0;
+  }
+
+  .LOGORABIETA {
+    display: none;
+  }
+
+
+ .SECTION1{
+  z-index: -1;
+  float: none;
+ }
+
+  .A1 {
+    width: 90%;
+   margin-bottom: 3px;
+}
+
+  .LaParis {
+    font-size: 30px;
+  }
+
+  .TEXTOLAPARIS {
+    font-size: 15px;
+    margin-bottom: 5%;
+  }
+
+  .A2 {
+    display: none;
+  }
+
+.A3 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  text-align: center;
+  background-color: #c1b6a4;
+  margin-top: 3px;
+}
+
+.DIVAFTER {
+  box-shadow: -10px 0px 5px 2px rgba(0, 0, 0, 0.5), 10px 0px 5px 2px rgba(0, 0, 0, 0.5);
+  width: 90%;
+  margin-bottom: 3px;
+}
+
+.DIVCERVEZAMALCRIADA {
+  margin-top: 3px;
+  font-size: small;
+  width: 90%;
+  box-shadow: -10px 0px 5px 2px rgba(0, 0, 0, 0.5), 10px 0px 5px 2px rgba(0, 0, 0, 0.5);
+}
+
+
+  .DIVVIVÍ{
+  display: none;
+}
+
+/* SOBRE NOSOTROS */
+
+.SectionSobreNos1{
+  height: 1500px;
+}
+
+.ArtSobreNos1 {
+  text-align: center;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.SobreNosotros {
+  font-family:'Hamilton', sans-serif;
+  font-size: 45px;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.ArtSobreNos2 {
+  width: 100%;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.DivHonestidad {
+  width: 60%;
+  height: 45%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  box-shadow: 5px 0px 5px 2px rgba(0, 0, 0, 0.5);
+  background-image: url(./IMAGENES/Honestidad.png);
+  background-position: center;
+  margin-left: 0px;
+}
+
+
+.DivTrabajo {
+  display: none;
+}
+.Valores {
+  color: white;
+}
+
+.DivCoCreación {
+  width: 60%;
+  height: 45%;
+  box-shadow: -5px 0px 5px 2px rgba(0, 0, 0, 0.5);
+  background-image: url(./IMAGENES/COCreacion.png);
+  background-position: center;
+  margin-right: 0px;
+}
+
+.ArtSobreNos3 {
+  width: 100%;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.DivExperimentación{
+  width: 60%;
+  height: 45%;
+  box-shadow: -5px 0px 5px 2px rgba(0, 0, 0, 0.5);
+  background-image: url(./IMAGENES/Experimentacion.png);
+  background-position: center;
+  margin-left: 0px;
+
+}
+
+.DivNobleza{
+  width: 60%;
+  height: 45%;
+  box-shadow: -5px 0px 5px 2px rgba(0, 0, 0, 0.5);
+  background-image: url(./IMAGENES/Nobleza.png);
+  background-position: center;
+  margin-right: 0px;
+
+} 
+
+.SectionSobreNos2{
+  display: flex;
+  flex-direction: row;
+  height: 200px;
+  width: 100%;
+}
+.ArtSobreNos4{
+  width: 100%;
+  height: 100%;
+  background-color: #262829;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+.ArtSobreNos5{
+  display: none;
+}
+
+.DivNuestraCasa{
+  background-image: url(./IMAGENES/NuestraCasa.png);
+  background-position: center;
+  background-size: cover 10%;
+  height: 90%;
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+
+}
+
+.NuestraCasa{
+font-family:'Hamilton', sans-serif;
+font-size: 20px;
+color: black;
+height: 20%;
+margin-top: 10px;
+}
+
+/* fin SOBRE NOSOTROS */
+
+ /* BEBIDAS */
+
+.Ipa{
+  width: 33.3%;
+}
+.Honey{
+  width: 33.3%;
+}
+.Irish{
+  width: 33.3%;
+}
+.RedIpa{
+  width: 33.3%;
+}
+.Golden{
+  width: 33.3%;
+}
+.Apa{
+  width: 33.3%;
+}
+
+.RedHoney{
+  display: none;
+}
+.WitBier{
+  display: none;
+}
+.Helles{
+  display: none;
+}
+.WeeHeavy{
+  display: none;
+}
+/* Fin BEBIDAS */
+
+/* EVENTOS */
+
+
+
+.ArtEventos1{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 7px 5px 5px 5px rgba(0.7, 0.7, 0.7, 0.7);
+
+}
+
+.ArtEventos2{
+  display: none;
+
+}
+.DivEventosAfter{
+  width: 90%;
+}
+
+
+.DivEventosMúsica{
+  width: 90%;
+}
+
+
+
+.DivEventosOrganiza{
+  width: 90%;
+
+}
+
+.FOOTER{
+  margin-top: 15px;
+}
+
+
+/* Fin EVENTOS */
+
+}
+
+
+@media screen and (max-width: 768px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+
+
+}
+

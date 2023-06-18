@@ -1,0 +1,177 @@
+<html>
+<head>
+    <link rel="stylesheet" href="estilos.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<title>RABIETA</title>
+<script src="./script.js"></script>
+
+</head>
+<body class="body">
+  <header class="HEADER1">  
+    <div class="topnav" id="myTopnav">
+      <a href="Index.html" class="active">RABIETA</a>
+      <a href="./NOSOTROS-LISTA.html" class="NOSOTROS-LISTA">Nosotros</a>
+      <a href="./COCINA-LISTA.html" class="COCINA-LISTA">Cocina</a>
+      <a href="./BEBIDAS-LISTA.html" class="BEBIDAS-LISTA">Bebidas</a>
+      <a href="./EVENTOS-LISTA.html" class="EVENTOS-LISTA">Eventos</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+  
+  </header>
+  
+    
+    <section class="SECTION1">
+
+      <article class="A1" onclick="redirectToNosotros()">
+
+          <h1 class="LaParis">La Paris</h1>
+          <p class="TEXTOLAPARIS">Av. del Libertador 3949 - Hipódromo de Palermo Horarios: Martes a sábados de 18 a 02hs y domingos de 12 a 22hs.a </p>
+        </article>
+        
+      <script>
+          function redirectToNosotros() {
+            window.location.href = "./NOSOTROS-LISTA.html";
+          }
+       </script>
+
+     <article class="A2">
+         
+        <div class="DIVMIPERFIL">
+
+          <h1 class="MiPerfil" onclick="toggleLoginForm()">Mi Perfil</h1>
+    <form id="loginForm" style="display: none;">
+      <label for="username">Username:</label><br>
+      <input type="text" id="username" name="username"><br>
+      <label for="pwd">Password:</label><br>
+      <input type="password" id="pwd" name="pwd">
+      <br><br>
+      <button type="button" onclick="login()">Ingresar</button>
+    </form>
+    <div id="profileData" style="display: none;">
+      <p class="Nombre">Juan Perez</p>
+      <p class="Edad">27 años</p>
+      <p class="Email">juanperez@gmail.com</p>
+    </div>
+
+    <script>
+      function toggleLoginForm() {
+        var form = document.getElementById("loginForm");
+        var profileData = document.getElementById("profileData");
+        if (form.style.display === "none") {
+          form.style.display = "block";
+          profileData.style.display = "none";
+        } else {
+          form.style.display = "none";
+          profileData.style.display = "none";
+        }
+      }
+    
+      function login() {
+        var username = document.getElementById("username").value;
+        var password = document.getElementById("pwd").value;
+        var form = document.getElementById("loginForm");
+        var profileData = document.getElementById("profileData");
+    
+        if (username === "juanperez" && password === "juanperez") {
+          form.style.display = "none";
+          profileData.style.display = "block";
+        } else {
+          profileData.style.display = "none";
+          alert("Credenciales incorrectas. Inténtalo de nuevo.");
+        }
+      }
+    </script>
+    
+
+         <div class="DIVMICARRITO">
+
+            <h1 class="MiCarrito">Mi carrito</h1>
+
+            <p>Cerveza IPA - $750</p>
+
+            <p>Fernet - $1300</p>
+            
+        </div>
+     </article>
+
+    </section>
+
+    <section class="SECTION2">
+    
+        <article class="A3">
+          <div class="DIVAFTER" onclick="redirectToWhatsApp()">
+            <h1 class="AfterRabieta">After Rabieta</h1>
+           <p class="TEXTODIV41">¡Todos los miércoles!</p>
+           <p class="TEXTODIV42">Ingresos free hasta las 22hs.
+            Reserva tu mesa acá</p>
+          </div>
+          <script>
+            function redirectToWhatsApp() {
+              window.location.href = "https://wa.me/message/SJRPAG626XVJL1";
+            }
+          </script>
+
+            <div class="DIVCERVEZAMALCRIADA" onclick="redirectToBebidasLista()">
+       
+             <h1 class="CervezaArtesanalMalcriada">Cerveza artesanal malcriada</h1>
+      
+             <p class="TEXTODIVCERVEZA">Nuestra cultura rabietera, que valora y encuentra placer en lo artesanal, sabe también de la importancia del consumo responsable. Por eso, en Rabieta estamos comprometidos con difundir y crear cultura en el consumo responsable de nuestros productos. Porque no hay nada más importante que sentirnos orgullosos de nuestra esencia</p>
+      
+            </div>
+
+            <script>
+              function redirectToBebidasLista() {
+                window.location.href = "./BEBIDAS-LISTA.html";
+              }
+            </script>
+            
+            <div class="DIVVIVÍ" onclick="playVideo()">
+              <h1 class="VivíLaExperiencia">Viví La experiencia</h1>
+              <iframe id="videoFrame" width="350" height="285" src="https://www.youtube.com/embed/a-IAacX4Jkc"></iframe>
+            </div>
+            
+            <script>
+              function playVideo() {
+                var videoFrame = document.getElementById("videoFrame");
+                videoFrame.src += "?autoplay=1";
+              }
+            </script>
+    
+          </article>
+ </section>
+
+
+ <footer class="FOOTER">
+   
+    <h1 class="CONTACTO">CONTACTO</h1>
+    
+    <article class="ArticleFooter">
+            <div>
+                <p>Reservas</p>
+                <p>11 21570 0445</p>
+                <p>reservas@rabieta.com.ar</p>
+            </div>
+
+            <div>
+                <p> Facebook: rabietacerveza</p>
+                <p>Instagram: @rabietacerveza</p>
+            </div>
+        </article>
+        
+
+ </footer>
+ <script>
+  function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
+    }
+  }
+  </script>
+</body>
+</html>

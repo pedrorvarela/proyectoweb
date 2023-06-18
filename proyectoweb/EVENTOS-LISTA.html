@@ -1,0 +1,137 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="estilos.css" type="text/css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <title>EVENTOS</title>
+    </head>
+
+
+    <body>
+
+        <header class="HEADER1">  
+            <div class="topnav" id="myTopnav">
+              <a href="Index.html" class="active">RABIETA</a>
+              <a href="./NOSOTROS-LISTA.html" class="NOSOTROS-LISTA">Nosotros</a>
+              <a href="./COCINA-LISTA.html" class="COCINA-LISTA">Cocina</a>
+              <a href="./BEBIDAS-LISTA.html" class="BEBIDAS-LISTA">Bebidas</a>
+              <a href="./EVENTOS-LISTA.html" class="EVENTOS-LISTA">Eventos</a>
+              <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+              </a>
+            </div>
+          
+          </header>
+
+        <section class="Section1Eventos">
+            <h1 class="TítuloEventos">Eventos</h1>
+
+            <section class="SubSectionEventos">
+
+                <article class="ArtEventos1">
+
+                    <div class="DivEventosAfter">
+
+                        <div class="SubDivEventosAfter_1">
+
+                            <h1 class="TítuloAfterRabieta"> After Rabieta</h1>
+                            <p class="TextoAfterRabieta_1">¡Todos los miércoles!</p>
+                            <p class="TextoAfterRabieta_2">Ingresos free hasta las 22hs.</p>
+                        </div>
+
+                        <div class="SubDivEventosAfter_2" onclick="redirectToWhatsApp()">
+                            <h1>Reserva acá</h1>
+                        </div>
+
+                        <script>
+                            function redirectToWhatsApp() {
+                              window.open('https://wa.me/message/SJRPAG626XVJL1');
+                            }
+                          </script>
+                    </div>
+
+                    <div class="DivEventosMúsica">
+                        <div class="SubDivEventosMúsica_1">
+
+                            <h1 class="TítuloMúsica"> Eventos Artísticos</h1>
+                            <p class="TextoEventosMúsica_1">Artes Plásticas</p>
+                            <p class="TextoEventosMúsica_2">Música en vivo</p>
+                        </div>
+
+                        <div class="SubDivEventosMúsica_2">
+                            <h1 class=>¡Próximamente!</h1>
+                        </div>
+                    </div>
+
+                    <div class="DivEventosOrganiza">
+                        <div class="SubDivEventosOrganiza_1">
+                            <h1 class="TítuloOrganizá">¡Organizá tu evento!</h1>
+                            <p class="TextoEventosOrganizá_1">Te dejamos nuestro Instagram para que nos contactes</p>
+                        </div>
+                        <div class="SubDivEventosOrganiza_2" onclick="redirectToInstagram()">
+                            <H1>Contacto</H1>
+                        </div>
+
+                        <script>
+                            function redirectToInstagram() {
+                              window.location.href = "https://www.instagram.com/rabietacerveza";
+                            }
+                          </script>
+                    </div>
+
+                </article>
+
+                <Article class="ArtEVentos2">
+
+                    <div class="DivFotosEventos_1">
+                        <div class="SubDivFotosEventos_1_1"></div>
+                        <div class="SubDivFotosEventos_1_2"></div>
+                    </div>
+
+                    <div class="DivFotosEventos_2">
+                        <div class="SubDivFotosEventos_2_1"></div>
+                        <div class="SubDivFotosEventos_2_2"></div>
+                    </div>
+                    
+
+                </Article>
+
+
+            </section>
+         </section>
+
+
+         <script>
+            function myFunction() {
+              var x = document.getElementById("myTopnav");
+              if (x.className === "topnav") {
+                x.className += " responsive";
+              } else {
+                x.className = "topnav";
+              }
+            }
+            </script>
+
+    </body>
+
+    <footer class="FOOTER">
+   
+        <h1 class="CONTACTO">CONTACTO</h1>
+        
+        <article class="ArticleFooter">
+                <div>
+                    <p>Reservas</p>
+                    <p>11 21570 0445</p>
+                    <p>reservas@rabieta.com.ar</p>
+                </div>
+    
+                <div>
+                    <p>Facebook: rabietacerveza</p>
+                    <p>Instagram: @rabietacerveza</p>
+                </div>
+            </article>
+            
+    
+     </footer>
+</html>
+
